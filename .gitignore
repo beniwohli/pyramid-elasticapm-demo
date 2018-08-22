@@ -1,3 +1,4 @@
+.idea
 *.egg
 *.egg-info
 .eggs/
@@ -9,3 +10,4 @@ docs/_build
 env/
 .DS_Store
 
+app/tasks.db
