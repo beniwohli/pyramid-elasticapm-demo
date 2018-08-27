@@ -1,9 +1,12 @@
-Pyramid Community Cookbook
-==========================
+Example app for integration of Pyramid with Elastic APM
+=======================================================
 
-The Pyramid Community Cookbook presents topical, practical "recipes" of using
-Pyramid. It supplements the `main Pyramid documentation
-<https://docs.pylonsproject.org/projects/pyramid/en/latest/>`_.
+This repository demonstrates the integration of Elastic APM with the Pyramid web framework. The accompanying blog post can be found at
+https://elastic.co/blog/creating-custom-framework-integrations-with-the-python-apm-agent
 
-To contribute your recipe to the Pyramid Community Cookbook, read `Contributing
-<https://github.com/Pylons/pyramid_cookbook/blob/master/contributing.md>`_.
+The example TODO-list app has been forked from the `Pyramid Cookbook <https://github.com/Pylons/pyramid_cookbook>`_ repository, and is licensed under the Creative Commons Attribution-Noncommercial-Share
+Alike 3.0 license.
+
+
+
+
