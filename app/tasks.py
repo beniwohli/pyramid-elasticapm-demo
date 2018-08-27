@@ -103,6 +103,8 @@ if __name__ == '__main__':
     config.add_static_view('static', os.path.join(here, 'static'))
     # scan for @view_config and @subscriber decorators
     config.scan()
+    # add elasticapm tween
+    config.include('elasticapm_integration')
     # serve app
     app = config.make_wsgi_app()
     server = make_server('0.0.0.0', 8080, app)
